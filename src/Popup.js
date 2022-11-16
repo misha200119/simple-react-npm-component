@@ -64,7 +64,7 @@ function Pop({
     })
     popperRef.current.style.top = `${topOffset}px`
     popperRef.current.style.left = `${leftOffset}px`
-  }, [offset.x, offset.y, target])
+  }, [offset.x, offset.y, target, containerRef, offset, popperRef])
 
   const { width } = position
   const style = {

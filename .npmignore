@@ -1,0 +1,5 @@
+*.config.js
+src
+.*
+
+srcWorkExample
